@@ -1,0 +1,131 @@
+:root {
+    --primary: #b88e2f;
+    --secondary: #000;
+    --font-family: "Poppins", sans-serif;
+    }
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a {
+text-decoration: none;
+}
+body{
+    font-family: var(--font-family);
+}
+ul,ol{
+    list-style: none;
+}
+
+.primary-btn{
+    background-color: var(--primary);
+    padding: 12px 36px;
+    display: block;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+}
+
+.container{
+   
+    max-width: 1240px;
+    margin: auto;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .menu{
+    width: 50%;
+    text-align: center;
+}
+nav .logo{
+    width: 20%;
+}
+
+nav .menu ul .row{
+
+    justify-content: center;
+}
+nav .menu ul li a{
+    padding: 38px 37.5px;
+display: block;
+font-weight: 500;
+font-size: 16px;
+color: #000;
+}
+nav .Links{
+
+   text-align: right;
+  width: 30%;
+}
+
+nav div .row{
+    align-items: center;
+}
+nav .Links a{
+    color: #000;
+    font-size: 23px;
+    margin: 0 22.5px;
+    display: inline-block;
+}
+#Banner {
+    background-image: url(../img/Banner.png);
+    height: 716px;
+    background-size: cover;
+    position: relative;
+}
+.bcnt{
+    width: 643px;
+    background-color: #FFF3E3;
+    border-radius: 10px;
+    padding: 72px 26px 36px 66px;
+     position: absolute;
+    top: 182px;
+    right: 52px;
+}
+.bcnt h5{font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #333;
+   
+}
+.bcnt h1{font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    color: var(--primary);
+    margin: 4px 0 17px;
+}
+.bcnt p{font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+margin-bottom: 46px;
+}
+
+.bcnt a{padding: 25px 72px;
+    width: 222px;
+    height: 74px;}
+
+ span{
+    text-align: center;
+ }
+ #ctgry{
+    padding: 56px 0;
+}
+#ctg2{
+    width: calc(33.33%-20);
+    margin: 0 10px; 
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #333;
+}
